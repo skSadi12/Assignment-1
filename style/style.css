@@ -50,7 +50,7 @@ button {
 }
 /* nav bar responsive starting */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
   #hide {
     visibility: hidden;
   }
@@ -118,7 +118,7 @@ button {
 }
 /* input section responsive starting */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
   .inputs {
     position: relative;
     width: 100%;
@@ -126,6 +126,11 @@ button {
     align-items: center;
     justify-content: center;
     padding: 30px;
+  }
+  .inputs img{
+    width: 100%;
+    height: auto;
+    max-width:576px ;
   }
   .down-1 {
     width: 222px;
