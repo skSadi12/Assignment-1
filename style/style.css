@@ -25,6 +25,8 @@ nav li {
 }
 .nav-3 {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 button {
@@ -50,9 +52,12 @@ button {
 }
 /* nav bar responsive starting */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
   #hide {
-    visibility: hidden;
+    display: none;
+  }
+  .nav-1 img{
+    width: 100%;
   }
   nav {
     padding: 5px;
@@ -61,14 +66,14 @@ button {
     gap: 10px;
   }
   .butn-login {
-    width: 90px;
+    width: 70px;
     height: 40px;
-    font-size: 16px;
+    font-size: 12px;
   }
   .butn-get {
-    width: 150px;
+    width: 110px;
     height: 40px;
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 /* nav bar end */
@@ -89,6 +94,9 @@ button {
   & p {
     font-size: 45px;
   }
+}
+.img-f{
+  width: 100%;
 }
 .up {
   width: 222px;
@@ -118,19 +126,19 @@ button {
 }
 /* input section responsive starting */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
   .inputs {
     position: relative;
-    width: 100%;
+    width: auto;
+    top: auto;
+    left: auto;
     display: grid;
     align-items: center;
     justify-content: center;
     padding: 30px;
   }
-  .inputs img{
+  .img-f{
     width: 100%;
-    height: auto;
-    max-width:576px ;
   }
   .down-1 {
     width: 222px;
