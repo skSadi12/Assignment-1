@@ -1,8 +1,9 @@
 * {
   margin: 0;
 }
-nav{
-    padding: 40px;
+/* nav bar starting */
+nav {
+  padding: 40px;
 }
 nav a {
   text-decoration: none;
@@ -24,10 +25,10 @@ nav li {
 }
 .nav-3 {
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 button {
-  border-radius: 10px;
+  border-radius: 30px;
   padding: 15px;
   border: none;
   outline: none;
@@ -36,11 +37,81 @@ button {
   background-color: #f1f1f1;
   width: 144px;
   height: 49px;
+  font-size: 22px;
 }
 .butn-get {
   background-color: #000000;
+  width: 305px;
   height: 49px;
+  font-size: 22px;
 }
 .butn-get a {
   color: white;
+}
+/* nav bar responsive starting */
+
+@media screen and (max-width: 767px) {
+  #hide {
+    visibility: hidden;
+  }
+  nav {
+    padding: 5px;
+  }
+  .nav-3 {
+    gap: 10px;
+  }
+  .butn-login {
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .butn-get {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
+/* nav bar end */
+/* input section start */
+.input-section img {
+  width: 100%;
+  z-index: -44;
+  position: relative;
+}
+.inputs {
+  position: absolute;
+  top: 55%;
+  left: 17%;
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+
+  & p {
+    font-size: 45px;
+  }
+}
+.up {
+  width: 222px;
+  height: 50px;
+  background-color: #f1f1f1;
+  margin-top: 50px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.down-1 {
+  width: 676px;
+  height: 50px;
+  background-color: #f1f1f1;
+  margin-top: 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.down-2 {
+  width: 222px;
+  height: 49px;
+  border-radius: 30px;
+  background-color: #00ebc7;
+  border: none;
 }
