@@ -80,8 +80,8 @@ button {
 }
 .inputs {
   position: absolute;
-  top: 55%;
-  left: 17%;
+  top: 380px;
+  left: 270px;
   background-color: white;
   padding: 50px;
   text-align: center;
@@ -114,4 +114,20 @@ button {
   border-radius: 30px;
   background-color: #00ebc7;
   border: none;
+  margin-top: 10px;
+}
+/* input section responsive starting */
+
+@media screen and (max-width: 767px) {
+  .inputs {
+    position: relative;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+  .down-1 {
+    width: 222px;
+  }
 }
