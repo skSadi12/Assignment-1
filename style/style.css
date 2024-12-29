@@ -85,7 +85,7 @@ button {
 }
 .inputs {
   position: absolute;
-  top: 380px;
+  top: 350px;
   left: 270px;
   background-color: white;
   padding: 50px;
@@ -124,6 +124,16 @@ button {
   border: none;
   margin-top: 10px;
 }
+.Zappr{
+  position: absolute;
+  left: 45%;bottom: -20%;
+  z-index: 1;
+}
+.butn-Zappr{
+  background-color: #FFFFFF;
+  height: 49px;
+  width: 183px;
+}
 /* input section responsive starting */
 
 @media screen and (max-width: 767px) {
@@ -137,6 +147,9 @@ button {
     justify-content: center;
     padding: 30px;
   }
+  .Zappr{
+    display: none;
+  }
   .img-f{
     width: 100%;
   }
@@ -144,3 +157,26 @@ button {
     width: 222px;
   }
 }
+/* Buy_Sell section start */
+.Buy_Sell-container{
+  text-align: center;
+  background-color: #FDE24F;
+  padding: 50px;
+  & h3{
+    font-size: 34px;
+    margin: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Buy_Sell-container{
+    padding: 30px;
+    & h3{
+      font-size: 18px;
+      margin: 30px;
+    }
+    img{
+      width: 100%;
+    }
+  }
+}
+/* Buy_Sell section end */
