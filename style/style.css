@@ -1,6 +1,9 @@
 * {
   margin: 0;
 }
+body{
+  font-family:"Inter", serif;
+}
 /* nav bar starting */
 nav {
   padding: 40px;
@@ -83,7 +86,7 @@ button {
   z-index: -44;
   position: absolute;
 }
-.input-container{
+.input-container {
 }
 .inputs {
   position: absolute;
@@ -188,25 +191,22 @@ button {
     font-size: 34px;
   }
 }
-.features-container-butn{
+.features-container-butn {
   display: flex;
   justify-content: center;
   align-items: center;
   & button {
-    /* margin-left: 43%;
-    margin-top: 70px; */
-
     background-color: #fff;
     padding: 10px;
     border: 1px solid black;
     width: 227px;
     height: 49px;
-    & a{
+    & a {
       text-decoration: none;
       font-size: 22px;
       color: black;
     }
-  }  
+  }
 }
 .features-images {
   display: flex;
@@ -238,7 +238,7 @@ button {
     & button {
       width: 200px;
       height: 49px;
-      & a{
+      & a {
         font-size: 20px;
       }
     }
@@ -248,11 +248,10 @@ button {
     gap: 40px;
     flex-direction: column;
     padding: 40px;
-    
   }
 }
 /* Buy and sell section start */
-.buy-sell-img{
+.buy-sell-img {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -263,32 +262,32 @@ button {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-.buy-sell-container{
+.buy-sell-container {
   display: flex;
   justify-content: space-evenly;
 }
 @media screen and (max-width: 767px) {
-  .buy-sell-container{
+  .buy-sell-container {
     flex-direction: column;
     padding: 20px;
   }
 }
 /* Buy and sell section end */
-.singup-section{
+.singup-section {
   padding: 75px;
   text-align: center;
-  background-color: #CFBAFF;
-  & h2{
+  background-color: #cfbaff;
+  & h2 {
     font-size: 75px;
   }
-  button{
+  button {
     padding: 10px;
     margin-top: 80px;
     background-color: black;
     width: 265px;
     height: 69px;
     border-radius: 15px;
-    & a{
+    & a {
       text-decoration: none;
       color: white;
       font-size: 32px;
@@ -296,18 +295,70 @@ button {
   }
 }
 @media screen and (max-width: 767px) {
-  .singup-section{
+  .singup-section {
     padding: 55px;
-    & h2{
+    & h2 {
       font-size: 35px;
     }
-    button{
+    button {
       padding: 10px;
       margin-top: 40px;
       width: 150px;
       height: 49px;
-      & a{
+      & a {
         font-size: 22px;
       }
     }
+  }
+}
+/* footer section start */
+footer {
+  background-color: black;
+  color: white;
+}
+.spacio {
+  display: flex;
+  justify-content: space-around;
+  padding: 70px;
+  & h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+}
+.copyright {
+  padding: 30px;
+  & p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .spacio {
+    flex-direction: ;
+    justify-content: space-between;
+    padding: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 20px;
+    & h3 {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    p {
+      font-size: 14px;
+      margin-top: 5px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .copyright {
+    padding: 20px;
+    & p {
+      font-size: 12px;
+    }
+  }
 }
