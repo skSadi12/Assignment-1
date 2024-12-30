@@ -53,14 +53,14 @@ button {
 /* nav bar responsive starting */
 
 @media screen and (max-width: 767px) {
-  #hide {
+  .hide {
     display: none;
   }
   .nav-1 img {
     width: 100%;
   }
   nav {
-    padding: 5px;
+    padding: 10px;
   }
   .nav-3 {
     gap: 10px;
@@ -98,9 +98,6 @@ button {
     font-size: 45px;
   }
 }
-/* .img-f {
-  width: 100%;
-} */
 .up {
   width: 222px;
   height: 50px;
@@ -277,3 +274,40 @@ button {
   }
 }
 /* Buy and sell section end */
+.singup-section{
+  padding: 75px;
+  text-align: center;
+  background-color: #CFBAFF;
+  & h2{
+    font-size: 75px;
+  }
+  button{
+    padding: 10px;
+    margin-top: 80px;
+    background-color: black;
+    width: 265px;
+    height: 69px;
+    border-radius: 15px;
+    & a{
+      text-decoration: none;
+      color: white;
+      font-size: 32px;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .singup-section{
+    padding: 55px;
+    & h2{
+      font-size: 35px;
+    }
+    button{
+      padding: 10px;
+      margin-top: 40px;
+      width: 150px;
+      height: 49px;
+      & a{
+        font-size: 22px;
+      }
+    }
+}
