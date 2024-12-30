@@ -83,6 +83,8 @@ button {
   z-index: -44;
   position: absolute;
 }
+.input-container{
+}
 .inputs {
   position: absolute;
   top: 45%;
@@ -96,9 +98,9 @@ button {
     font-size: 45px;
   }
 }
-.img-f {
+/* .img-f {
   width: 100%;
-}
+} */
 .up {
   width: 222px;
   height: 50px;
@@ -126,9 +128,9 @@ button {
   margin-top: 10px;
 }
 .Zappr {
-  position: relative;
-  left: 45%;
-  bottom: 100px;
+  position: absolute;
+  left: 42%;
+  bottom: -160px;
   z-index: 2;
 }
 .butn-Zappr {
@@ -252,4 +254,26 @@ button {
     
   }
 }
-
+/* Buy and sell section start */
+.buy-sell-img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.buy-sell-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 767px) {
+  .buy-sell-container{
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+/* Buy and sell section end */
