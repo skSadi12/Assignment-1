@@ -337,9 +337,12 @@ footer {
 }
 @media screen and (max-width: 767px) {
   .spacio {
-    flex-direction: ;
+    flex-direction: column ;
     justify-content: space-between;
-    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px;
     padding-top: 30px;
     padding-bottom: 30px;
     gap: 20px;
